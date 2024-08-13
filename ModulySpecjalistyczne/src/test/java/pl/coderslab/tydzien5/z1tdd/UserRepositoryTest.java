@@ -13,7 +13,7 @@ class UserRepositoryTest {
     @BeforeEach
     void prepare (){
         userRepository = new UserRepository();
-        user = new User("name");
+        user = new User("name", "dawid", "pas");
         userRepository.add(1, user);
     }
 
